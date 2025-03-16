@@ -5,7 +5,7 @@ package cfd
 
 import (
 	"github.com/go-ole/go-ole"
-	"github.com/wailsapp/wails/v2/internal/go-common-file-dialog/util"
+	"github.com/josStorer/wails/v2/internal/go-common-file-dialog/util"
 	"unsafe"
 )
 

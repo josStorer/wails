@@ -4,7 +4,7 @@
 package linux
 
 /*
-#cgo linux pkg-config: gtk+-3.0 
+#cgo linux pkg-config: gtk+-3.0
 #cgo !webkit2_41 pkg-config: webkit2gtk-4.0
 #cgo webkit2_41 pkg-config: webkit2gtk-4.1
 
@@ -90,14 +90,14 @@ import (
 	"text/template"
 	"unsafe"
 
-	"github.com/wailsapp/wails/v2/pkg/assetserver"
-	"github.com/wailsapp/wails/v2/pkg/assetserver/webview"
+	"github.com/josStorer/wails/v2/pkg/assetserver"
+	"github.com/josStorer/wails/v2/pkg/assetserver/webview"
 
-	"github.com/wailsapp/wails/v2/internal/binding"
-	"github.com/wailsapp/wails/v2/internal/frontend"
-	wailsruntime "github.com/wailsapp/wails/v2/internal/frontend/runtime"
-	"github.com/wailsapp/wails/v2/internal/logger"
-	"github.com/wailsapp/wails/v2/pkg/options"
+	"github.com/josStorer/wails/v2/internal/binding"
+	"github.com/josStorer/wails/v2/internal/frontend"
+	wailsruntime "github.com/josStorer/wails/v2/internal/frontend/runtime"
+	"github.com/josStorer/wails/v2/internal/logger"
+	"github.com/josStorer/wails/v2/pkg/options"
 )
 
 var initOnce = sync.Once{}

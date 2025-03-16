@@ -1,4 +1,4 @@
-module github.com/wailsapp/wails/v2
+module github.com/josStorer/wails/v2
 
 go 1.21
 

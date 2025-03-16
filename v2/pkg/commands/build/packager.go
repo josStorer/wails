@@ -8,16 +8,16 @@ import (
 	"path/filepath"
 	"strings"
 
+	"github.com/josStorer/wails/v2/internal/project"
 	"github.com/leaanthony/winicon"
 	"github.com/tc-hib/winres"
 	"github.com/tc-hib/winres/version"
-	"github.com/wailsapp/wails/v2/internal/project"
 
 	"github.com/jackmordaunt/icns"
+	"github.com/josStorer/wails/v2/pkg/buildassets"
 	"github.com/pkg/errors"
-	"github.com/wailsapp/wails/v2/pkg/buildassets"
 
-	"github.com/wailsapp/wails/v2/internal/fs"
+	"github.com/josStorer/wails/v2/internal/fs"
 )
 
 // PackageProject packages the application

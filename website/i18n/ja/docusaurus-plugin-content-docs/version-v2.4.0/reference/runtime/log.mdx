@@ -115,7 +115,7 @@ Go: `LogSetLogLevel(ctx context.Context, level logger.LogLevel)`<br/> JS: `LogSe
 
 ## カスタムロガーの使用
 
-カスタムロガーは、アプリケーションオプションの1つである[Logger](../options.mdx#logger)で指定してあげることで、使用することができます。 カスタムロガーを使用する際の唯一の要件は、`github.com/wailsapp/wails/v2/pkg/logger`で定義されている`logger.Logger`インターフェースを、ロガーに実装することです:
+カスタムロガーは、アプリケーションオプションの1つである[Logger](../options.mdx#logger)で指定してあげることで、使用することができます。 カスタムロガーを使用する際の唯一の要件は、`github.com/josStorer/wails/v2/pkg/logger`で定義されている`logger.Logger`インターフェースを、ロガーに実装することです:
 
 ```go title="logger.go"
 type Logger interface {

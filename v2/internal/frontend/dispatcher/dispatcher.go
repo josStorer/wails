@@ -2,11 +2,11 @@ package dispatcher
 
 import (
 	"context"
+	"github.com/josStorer/wails/v2/internal/binding"
+	"github.com/josStorer/wails/v2/internal/frontend"
+	"github.com/josStorer/wails/v2/internal/logger"
+	"github.com/josStorer/wails/v2/pkg/options"
 	"github.com/pkg/errors"
-	"github.com/wailsapp/wails/v2/internal/binding"
-	"github.com/wailsapp/wails/v2/internal/frontend"
-	"github.com/wailsapp/wails/v2/internal/logger"
-	"github.com/wailsapp/wails/v2/pkg/options"
 )
 
 type Dispatcher struct {
