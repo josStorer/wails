@@ -115,7 +115,7 @@ Go: `LogSetLogLevel(ctx context.Context, level logger.LogLevel)`<br/> JS: `LogSe
 
 ## Usando um Logger personalizado
 
-Um logger personalizado pode ser usado fornecendo usando a opção de aplicativo [Logger](../options.mdx#logger). O único requisito é que o logger implemente a interface de `logger.Logger` definida em `github.com/wailsapp/wails/v2/pkg/logger`:
+Um logger personalizado pode ser usado fornecendo usando a opção de aplicativo [Logger](../options.mdx#logger). O único requisito é que o logger implemente a interface de `logger.Logger` definida em `github.com/josStorer/wails/v2/pkg/logger`:
 
 ```go title="logger.go"
 type Logger interface {

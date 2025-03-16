@@ -3,9 +3,9 @@
 package menu_test
 
 import (
+	platformMenu "github.com/josStorer/wails/v2/internal/platform/menu"
+	"github.com/josStorer/wails/v2/pkg/menu"
 	"github.com/stretchr/testify/require"
-	platformMenu "github.com/wailsapp/wails/v2/internal/platform/menu"
-	"github.com/wailsapp/wails/v2/pkg/menu"
 	"testing"
 )
 

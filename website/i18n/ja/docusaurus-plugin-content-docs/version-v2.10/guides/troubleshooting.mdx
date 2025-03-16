@@ -139,8 +139,8 @@ FSNotifyは、Macのために、[Appleのfseventsへの移行を検討してい�
 一部のユーザより、次のようなコンパイルエラーが発生することがあるという報告を受けています:
 
 ```shell
-# github.com/wailsapp/wails/v2/internal/frontend/desktop/darwin
-In file included from ../../pkg/mod/github.com/wailsapp/wails/v2@v2.0.0-beta.44.2/internal/frontend/desktop/darwin/callbacks.go:9:
+# github.com/josStorer/wails/v2/internal/frontend/desktop/darwin
+In file included from ../../pkg/mod/github.com/josStorer/wails/v2@v2.0.0-beta.44.2/internal/frontend/desktop/darwin/callbacks.go:9:
 In file included from /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h:12:
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSBundle.h:91:143: error: function does not return NSString
 - (NSAttributedString *)localizedAttributedStringForKey:(NSString *)key value:(nullable NSString *)value table:(nullable NSString *)tableName NS_FORMAT_ARGUMENT(1) NS_REFINED_FOR_SWIFT API_AVAILABLE(macos(12.0), ios(15.0), watchos(8.0), tvos(15.0));
@@ -271,10 +271,10 @@ import (
 
     "github.com/fourcorelabs/wintoken"
     "github.com/hectane/go-acl"
-    "github.com/wailsapp/wails/v2"
-    "github.com/wailsapp/wails/v2/pkg/options"
-    "github.com/wailsapp/wails/v2/pkg/options/assetserver"
-    "github.com/wailsapp/wails/v2/pkg/options/windows"
+    "github.com/josStorer/wails/v2"
+    "github.com/josStorer/wails/v2/pkg/options"
+    "github.com/josStorer/wails/v2/pkg/options/assetserver"
+    "github.com/josStorer/wails/v2/pkg/options/windows"
 )
 
 //go:embed all:frontend/dist

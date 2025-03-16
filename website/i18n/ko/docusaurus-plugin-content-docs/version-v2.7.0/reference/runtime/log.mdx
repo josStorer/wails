@@ -115,7 +115,7 @@ Go: `LogSetLogLevel(ctx context.Context, level logger.LogLevel)`<br/> JS: `LogSe
 
 ## 커스텀 Logger 사용하기
 
-사용자 커스텀 logger는 [Logger](../options.mdx#logger)를 사용하여 제공하여 사용할 수 있습니다. 응용 프로그램 옵션. 유일한 요구 사항은 logger가 `logger.Logger` 인터페이스를 구현한다는 것입니다. 이는 `github.com/wailsapp/wails/v2/pkg/logger`에 정의되어 있습니다:
+사용자 커스텀 logger는 [Logger](../options.mdx#logger)를 사용하여 제공하여 사용할 수 있습니다. 응용 프로그램 옵션. 유일한 요구 사항은 logger가 `logger.Logger` 인터페이스를 구현한다는 것입니다. 이는 `github.com/josStorer/wails/v2/pkg/logger`에 정의되어 있습니다:
 
 ```go title="logger.go"
 type Logger interface {

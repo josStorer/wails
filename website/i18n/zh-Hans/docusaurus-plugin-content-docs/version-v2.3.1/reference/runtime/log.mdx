@@ -115,7 +115,7 @@ Go: `LogSetLogLevel(ctx context.Context, level logger.LogLevel)`<br/> JS: `LogSe
 
 ## 使用自定义日志
 
-可以通过使用应用程序参数选项 [日志](../../reference/options#日志) 提供自定义记录器来使用它。 唯一的要求是记录器实现在 `github.com/wailsapp/wails/v2/pkg/logger` 里 `logger.Logger` 定义的接口：
+可以通过使用应用程序参数选项 [日志](../../reference/options#日志) 提供自定义记录器来使用它。 唯一的要求是记录器实现在 `github.com/josStorer/wails/v2/pkg/logger` 里 `logger.Logger` 定义的接口：
 
 ```go title="logger.go"
 type Logger interface {
