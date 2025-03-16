@@ -53,7 +53,7 @@ func UpdateGoModVersion(goModText []byte, currentVersion string) ([]byte, error)
 		return nil, err
 	}
 
-	err = file.AddRequire("github.com/josStorer/wails/v2", currentVersion)
+	err = file.AddRequire("github.com/wailsapp/wails/v2", currentVersion)
 	if err != nil {
 		return nil, err
 	}
