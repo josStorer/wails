@@ -1,10 +1,10 @@
 This fork is used to improve the recompilation speed when using the `wails dev` command for development on Windows, aiming to enhance the development experience. For detailed information, please check https://github.com/wailsapp/wails/issues/4142. Relevant changes have been submitted as pull requests to the official repository. Before the official repository merges them, you can install the Wails CLI tool modified by this fork to improve the recompilation speed by using either
 ```bash
-go install github.com/josStorer/wails/v2/cmd/wails@v2.9.2b
+go install github.com/josStorer/wails/v2/cmd/wails@v2.9.2x
 ```
 or
 ```bash
-go install github.com/josStorer/wails/v2/cmd/wails@v2.10.1b
+go install github.com/josStorer/wails/v2/cmd/wails@v2.10.1x
 ```
 You only need to install the CLI tool and then `wails dev -m -skipembedcreate`. There is **no** need to redirect the wails url in `go.mod` to this repository.
 
