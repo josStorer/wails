@@ -21,7 +21,7 @@ func GetWailsVersionFromModFile(goModText []byte) (*semver.Version, error) {
 		if !req.Syntax.InBlock {
 			tokenPosition = 1
 		}
-		if req.Syntax.Token[tokenPosition] == "github.com/josStorer/wails/v2" {
+		if req.Syntax.Token[tokenPosition] == "github.com/wailsapp/wails/v2" {
 			version := req.Syntax.Token[tokenPosition+1]
 			return semver.NewVersion(version)
 		}
